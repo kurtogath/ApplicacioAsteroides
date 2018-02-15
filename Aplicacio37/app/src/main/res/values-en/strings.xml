@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aplication 1</string>
+
+    <string name="titulo"> Aplication 1 </string>
+    <string name="jugar"> Play </string>
+    <string name="config"> Configuration </string>
+    <string name="info"> Information </string>
+    <string name="exit"> Exit </string>
+
+    <!-- Actualizar -->
+
+    <string name="menuconfiguracio">Congiguration</string>
+    <string name="menuacercade">About...</string>
+    <string name="menucercar">Search</string>
+
+    <!-- Exemple 5.5-->
+
+    <string name="pa_key">preferencies_principal</string>
+    <string name="pa_title">preferencies_principal</string>
+
+
+    <!-- ////////////////// Grupo 1///////////////////////////////////-->
+    <string name="pa1_key">musica</string>
+    <string name="pa1_title">Play music</string>
+    <string name="pa1_sumary">It plays music in background</string>
+
+    <string name="pa2_key">graficos</string>
+    <string name="pa2_title"> Type of graphics</string>
+    <string name="pa2_sumary">It chose the graphics options</string>
+
+    <string name="pa3_key">fragmentos</string>
+    <string name="pa3_title">Number of fragments</string>
+    <string name="pa3_sumary">In how much pices it brokes an asteroid</string>
+
+    <!-- ////////////////// Grupo 2///////////////////////////////////-->
+    <string name="pa_2_key">multi</string>
+    <string name="pa_2_title"> Multiplayer mode</string>
+
+    <string name="pa1_2_key">online</string>
+    <string name="pa1_2_title">Enable multiplayer mode</string>
+
+    <string name="pa2_2_key">playermax</string>
+    <string name="pa2_2_title">Max Player</string>
+
+    <string name="pa3_2_key">connex</string>
+    <string name="pa3_2_title">Connexion type</string>
+
+</resources>

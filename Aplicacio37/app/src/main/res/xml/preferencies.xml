@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+    android:title="@string/pa_title"
+    android:key="@string/pa_key"
+    >
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="@string/pa1_key"
+        android:title="@string/pa1_title"
+        android:summary="@string/pa1_sumary"/>
+    <ListPreference
+        android:defaultValue="1"
+        android:key="@string/pa2_key"
+        android:title="@string/pa2_title"
+        android:summary="@string/pa2_sumary"
+        android:entryValues="@array/tipusGraficsValors"
+        android:entries="@array/tipusGrafics"/>
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:key="@string/pa3_key"
+        android:title="@string/pa3_title"
+        android:summary="@string/pa3_sumary"/>
+
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="@string/pa_2_title"
+        android:key="@string/pa_2_key"
+        >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pa1_2_key"
+            android:title="@string/pa1_2_title"
+            />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:key="@string/pa3_2_key"
+            android:title="@string/pa3_2_title"
+            android:entryValues="@array/tipusModosValors"
+            android:entries="@array/tipusModos"/>
+
+        <EditTextPreference
+            android:defaultValue="5"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:key="@string/pa2_2_key"
+            android:title="@string/pa2_2_title"
+            />
+
+    </PreferenceCategory>
+    <!--  Guardar datos -->
+    <PreferenceCategory android:title="Almacenamiento"
+        android:key="storage">
+
+        <ListPreference
+            android:defaultValue="1"
+            android:key="@string/pa1_3_key"
+            android:title="@string/pa1_3_title"
+            android:summary="@string/pa1_3_sumary"
+            android:entryValues="@array/tipusEnmagetzamentValors"
+            android:entries="@array/tipusEnmagetzament"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item android:title="@string/menuconfiguracio"
+        android:id="@+id/configuracio"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:orderInCategory="5"
+        android:showAsAction="never"
+        />
+    <item android:title="@string/menuacercade"
+        android:id="@+id/acercaDe"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:showAsAction="ifRoom|withText"
+        />
+    <item android:title="@string/menucercar"
+        android:id="@+id/cercar"
+        android:icon="@android:drawable/ic_menu_search"
+        android:orderInCategory="115"
+        android:showAsAction="always|collapseActionView">
+
+    </item>
+</menu>
